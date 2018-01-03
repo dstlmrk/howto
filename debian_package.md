@@ -19,6 +19,11 @@ Tvorba baliku a smazani nepotrebnych souboru:
 dpkg-buildpackage -us -uc -d
 debian/rules clean
 ```
+## Nova verze a zmeny v changelogu
+
+```bash
+dch -i
+```
 
 ## Otestovani
 
